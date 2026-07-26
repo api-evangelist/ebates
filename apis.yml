@@ -1,7 +1,27 @@
 aid: ebates
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ebates.png
 name: Ebates
-description: Ebates is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ebates is a consumer cash-back and rebate shopping platform founded in 2000 in
+  San Francisco that pays members a percentage of their purchases back as cash
+  when they shop through its links at thousands of partner retailers. Rakuten
+  acquired Ebates in 2014 and rebranded the U.S. service as Rakuten Rewards in
+  2019; the ebates.com domain now redirects to rakuten.com. The business is a
+  consumer-facing rewards and affiliate-commerce brand and does not operate an
+  independent public developer API program. It was surfaced as a portfolio
+  company of Canaan Partners and added to the API Evangelist network for
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/ebates/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cash Back
+- Rewards
+- Shopping
+- E-Commerce
+- Affiliate
+- Retail
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ebates-domain-security.yml
+- type: Website
+  url: https://www.rakuten.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
