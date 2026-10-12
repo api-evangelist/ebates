@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/ebates/integrations
+- https://n8n.io/integrations/ebates/
+- https://composio.dev/toolkits/ebates
+- https://monid.ai/tools/ebates
+checked:
+- https://composio.dev/toolkits/ebates
+- https://monid.ai/tools/ebates
+- https://n8n.io/integrations/ebates/
+- https://zapier.com/apps/ebates/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
